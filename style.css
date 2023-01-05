@@ -1,0 +1,120 @@
+html, body {width: 100%; height: 100%; margin:0; padding: 0;}
+
+body{
+	background-color: hsl(257, 40%, 49%);
+}
+
+*{padding: 0;margin: 0;}
+
+img{width: 100%;height: 100%;}
+
+a{text-decoration: none;}
+
+@font-face {
+  font-family: Poppins;
+  src: url(https://fonts.google.com/specimen/Poppins);}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(https://fonts.google.com/specimen/Open+Sans);}
+ 
+
+@media only screen and (min-width: 375px) and (max-width: 767.8px) {
+
+
+.fundo{background-image: url("bg-mobile.svg"); background-repeat: no-repeat; background-size: cover;}
+
+.alinhamento-conteudo{ display:flex; justify-content:center;}
+
+.container{margin: 0 auto; padding: 0px 35px 0 35px}
+
+.caixa{width: 100%; height: 100px; margin-bottom: 200px}
+
+.caixa-centralizar{display: flex; align-items: center; justify-content:center; width: 100%;}
+
+.logo{display: flex; justify-content: center}
+
+.logo img{width: 200px; height: 200px}
+
+.caixa img{width: 100%; height: 250px; margin-bottom:120px}
+
+.conteudo{text-align: center; }
+
+.conteudo h1{color: white; margin-bottom: 40px; font-family: Open Sans; font-weight: 400 600; font-size: 30px}
+.conteudo p{color: white; font-family:Open Sans; font-size:16px; font-weight:400;}
+
+
+.fa{font-size: 24px;color: white;}
+
+border-radius,.fa:hover {color: hsl(300, 69%, 71%);text-decoration: none; border-color:hsl(300, 69%, 71%) }
+
+.icones-caixa{display: flex;justify-content:center; width: 100%;margin: 0 auto; margin-bottom: 50px}
+
+.links{width: 50px;height: 50px;margin-right: 20px;border: 2px solid white;	border-radius: 100px;display: flex;align-items: center;justify-content: center;}
+
+.caixa-btn{margin-bottom: 80px; margin-top: 40px; }
+
+.botao{display: flex; justify-content: center;}
+
+.radius{border: none; border-radius: 100px;width: 350px; height: 70px; font-size: 22px; font-family: Open Sans;font-weight: 400;color: hsl(257, 40%, 49%);display: flex;align-items: center;justify-content: center;}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+}
+
+/* F I M - M O B I L E Smartphones (767.8px para baixo)  */
+
+
+
+/*Dispostivos Médios (Tablets deitados, 767.9px para cima) */
+@media only screen and (min-width: 767.9px) {
+.fundo{background-image: url("bg-desktop.svg"); background-repeat: no-repeat; background-size: cover;}
+
+.container{margin: 0 auto; padding: 20px}
+
+.alinhamento{ display: flex; justify-content:left;}
+
+.alinhamento-conteudo{ display:flex; justify-content:center }
+
+.caixa{width: 100%; margin-bottom: 40px; display: flex; align-items: center;}
+
+.logo{width: 250px; display: flex;  justify-content: left; margin-bottom: 70px}
+
+.conteudo{padding: 34px;}
+
+.conteudo h1{color: white; margin-bottom: 20px; font-family: Open Sans; font-weight: 400 600; font-size: 39px; text-align:center}
+.conteudo p{color: white; margin-bottom: 20px; font-family:Poppins; font-size:20px; font-weight:400; text-align:center; }
+
+
+.fa{font-size: 22px;color: white;}
+
+border-radius,.fa:hover {color: hsl(300, 69%, 71%);text-decoration: none; border-color:hsl(300, 69%, 71%) }
+
+.icones-caixa{display: flex; justify-content:right;}
+
+.caixa-i{display: flex; justify-content:right; width: 100%;}
+
+.caixa-centralizar{display: flex; align-items: center; justify-content:center; width: 100%;}
+
+.links{ width: 40px; height: 40px;border: 2px solid none;display: flex; border-radius: 50%;}
+
+
+.alinha{ display:flex;align-items: center; justify-content: center}
+
+
+.botao{display: flex; justify-content: left; align-items: center;}
+.radius{border: none; border-radius: 100px;width: 150px; height: 35px; font-size: 16px; font-family: Open Sans;font-weight: 400;color: hsl(257, 40%, 49%); display:flex;align-items: center; justify-content:center;}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+}
+
+
+/* F I M - M O B I L E Dispostivos Médios (Tablets deitados, 768.9px para cima) */
+
+
+
+
+
