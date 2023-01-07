@@ -1,0 +1,142 @@
+html, body {width: 100%; height: 100%; margin:0; padding: 0;}
+
+body{background-color:  hsl(0, 0%, 98%);}
+
+*{padding: 0;margin: 0;}
+
+img{width: 100%;height: 100%;}
+
+a{text-decoration: none;}
+
+div{margin: 0;padding: 0}
+
+p{color: hsl(229, 6%, 66%); font-size: 15px}
+
+h3{color: hsl(234, 12%, 34%)}
+
+h6{font-size: 14px}
+
+
+
+
+
+@font-face {
+  font-family: Poppins;
+  src: url(https://fonts.google.com/specimen/Poppins);}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(https://fonts.google.com/specimen/Open+Sans);}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+
+
+.vertical {min-height: 100%; min-height: 100vh; display: flex; align-items: center;}
+
+.horizontal {margin: 0 auto; width:80% }
+
+.container{width: 1100px;}
+
+/* CAIXA SUPERIOR */
+
+.caixa-superior{background-color:hsl(0, 0%, 98%);height: 150px;text-align: center;margin-bottom: 10px; margin-top: 10px}
+
+.cor-h3-1 { color: hsl(229, 6%, 66%) }
+
+.centralizar{width: 550px;margin: 0 auto;}
+
+
+/* CAIXA CONTEUDO */
+
+  
+.imagem {
+  width: 50px;
+  padding: 0;
+  margin: 0;  
+}
+
+.caixa-img {padding: 15px; display: flex; justify-content: end}
+
+
+.cartao{
+  margin-top: 32px;
+}
+
+.caixa-conteudo-lateral{
+  height: 420px;
+  display: flex;
+  align-items: center;  
+  padding: 10px;
+
+
+}
+
+
+}
+
+.caixa-conteudo-1{
+  height: 12em;
+  padding: 5px 0 5px 5px;
+
+  display: flex;
+  align-items: start;
+
+}
+
+.caixa-conteudo-2{
+  height: 12em;
+  padding: 0px;
+  margin: 0;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: end;
+
+}
+
+.caixa1{
+  border-top: 3px solid hsl(212, 86%, 64%);
+  box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);
+}
+
+.caixa2{
+  border-top: 3px solid hsl(0, 78%, 62%);
+  box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);
+}
+
+.caixa3{
+  border-top: 3px solid hsl(180, 62%, 55%);
+  box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);
+}
+
+.caixa4{
+  border-top: 3px solid hsl(34, 97%, 64%);
+  box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);
+}
+
+
+
+
+  
+  
+  
+ 
+
+
+
+
+
+}
+
+
+ 
+

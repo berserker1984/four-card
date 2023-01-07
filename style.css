@@ -1,14 +1,26 @@
 html, body {width: 100%; height: 100%; margin:0; padding: 0;}
 
-body{
-	background-color: hsl(257, 40%, 49%);
-}
+body{background-color:  hsl(0, 0%, 98%);}
 
 *{padding: 0;margin: 0;}
 
 img{width: 100%;height: 100%;}
 
 a{text-decoration: none;}
+
+div{margin: 0;padding: 0}
+
+p{color: hsl(229, 6%, 66%); font-size: 16px}
+
+h3{color: hsl(234, 12%, 34%); font-size: 24px}
+
+h6{font-size: 14px}
+
+
+
+
+
+
 
 @font-face {
   font-family: Poppins;
@@ -17,104 +29,136 @@ a{text-decoration: none;}
 @font-face {
   font-family: Open Sans;
   src: url(https://fonts.google.com/specimen/Open+Sans);}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {}
+
+
+
+
+/* DISPOSITIVOS MENORES INICIO */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+
+.vertical {min-height: 100%; min-height: 100vh; display: flex; align-items: center; margin-bottom: 150px}
+.horizontal {margin: 0 auto; width:70% }
+.container{width: 1100px;}
+
+/* CAIXA SUPERIOR */
+.caixa-superior{width: 320px;background-color:hsl(0, 0%, 98%);height: 100px;text-align: center; margin:0 auto;  margin-bottom: 50px;}
+.cor-h3-1 { color: hsl(229, 6%, 66%) }
+.centralizar{width: 280px;margin: 0 auto; text-align: center;}
+.box-centralizar{text-align: center; margin: 0 auto}
+.fonte {font-size: 26px}
+
+/* CAIXA CONTEUDO */
+.imagem {width:60px;padding: 0;margin: 0;}
+.caixa-img {padding: 15px; display: flex; justify-content: end}
+.cartao{}
+.caixa-conteudo-lateral{}
+.caixa-conteudo-1{}
+.caixa-conteudo-2{}
+.caixa{height: 220px; width: 320px;margin-top: 35px}
+#primeiro{z-index:10 }
+#segundo{z-index:3 }
+#terceiro{z-index:2 }
+#quarto{z-index: 4 }
+
+/* CAIXA BORDAS */
+
+.caixa1{border-top: 3px solid hsl(212, 86%, 64%);box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);height: 220px; width: 320px;margin-top: 35px; position: relative;}
+.caixa2{border-top: 3px solid hsl(0, 78%, 62%);box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);height: 220px; width: 320px;margin-top: 35px; position: relative;}
+.caixa3{border-top: 3px solid hsl(180, 62%, 55%);box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);height: 220px; width: 320px;margin-top: 35px; position: relative;}
+.caixa4{border-top: 3px solid hsl(34, 97%, 64%);box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);height: 220px; width: 320px;margin-top: 35px; position: relative;}
+
+
+
+}
+/* DISPOSITIVOS MENORES FIM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DISPOSITIVOS GRANDES */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {.vertical {min-height: 100%; min-height: 100vh; display: flex; align-items: center;}
+.horizontal {margin: 0 auto; width:80% }
+.container{width: 1100px;}
+
+/* CAIXA SUPERIOR */
+.caixa-superior{background-color:hsl(0, 0%, 98%);height: 150px;text-align: center;margin-bottom: 10px; margin-top: 10px}
+.cor-h3-1 { color: hsl(229, 6%, 66%) }
+.centralizar{width: 550px;margin: 0 auto;}
+
+/* CAIXA CONTEUDO */
+.imagem {width: 50px;padding: 0;margin: 0;}
+.caixa-img {padding: 15px; display: flex; justify-content: end}
+.cartao{margin-top: 32px;}
+.caixa-conteudo-lateral{height: 420px;display: flex;align-items: center;padding: 10px;}
+.caixa-conteudo-1{height: 12em;padding: 5px 0 5px 5px;display: flex;align-items: start;}
+.caixa-conteudo-2{height: 12em;padding: 0px;margin: 0;padding-bottom: 20px;display: flex;align-items: end;}
+
+/* CAIXA BORDAS */
+
+.caixa1{border-top: 3px solid hsl(212, 86%, 64%);box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);}
+.caixa2{border-top: 3px solid hsl(0, 78%, 62%);box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);}
+.caixa3{border-top: 3px solid hsl(180, 62%, 55%);box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);}
+
+.caixa4{border-top: 3px solid hsl(34, 97%, 64%);box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);}}
+
+
+
+
+/* DISPOSITIVOS GRANDES */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+
+.vertical {min-height: 100%; min-height: 100vh; display: flex; align-items: center;}
+.horizontal {margin: 0 auto; width:80% }
+.container{width: 1100px;}
+
+/* CAIXA SUPERIOR */
+.caixa-superior{background-color:hsl(0, 0%, 98%);height: 150px;text-align: center;margin-bottom: 10px; margin-top: 10px}
+.cor-h3-1 { color: hsl(229, 6%, 66%) }
+.centralizar{width: 550px;margin: 0 auto;}
+
+/* CAIXA CONTEUDO */
+.imagem {width: 50px;padding: 0;margin: 0;}
+.caixa-img {padding: 15px; display: flex; justify-content: end}
+.cartao{margin-top: 32px;}
+.caixa-conteudo-lateral{margin-top:120px;}
+.caixa-conteudo-1{display: flex;align-items: start;}
+.caixa-conteudo-2{display: flex;align-items: end;}
+
+/* CAIXA BORDAS */
+
+.caixa1{border-top: 3px solid hsl(212, 86%, 64%);box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);}
+.caixa2{border-top: 3px solid hsl(0, 78%, 62%);box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);}
+.caixa3{border-top: 3px solid hsl(180, 62%, 55%);box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);}
+
+.caixa4{border-top: 3px solid hsl(34, 97%, 64%);box-shadow: 0px 8px 8px 2px  hsl(229, 25%, 86%);}
+
+}
+
+
  
-
-@media only screen and (min-width: 375px) and (max-width: 767.8px) {
-
-
-.fundo{background-image: url("bg-mobile.svg"); background-repeat: no-repeat; background-size: cover;}
-
-.alinhamento-conteudo{ display:flex; justify-content:center;}
-
-.container{margin: 0 auto; padding: 0px 35px 0 35px}
-
-.caixa{width: 100%; height: 100px; margin-bottom: 200px}
-
-.caixa-centralizar{display: flex; align-items: center; justify-content:center; width: 100%;}
-
-.logo{display: flex; justify-content: center}
-
-.logo img{width: 200px; height: 200px}
-
-.caixa img{width: 100%; height: 250px; margin-bottom:120px}
-
-.conteudo{text-align: center; }
-
-.conteudo h1{color: white; margin-bottom: 40px; font-family: Open Sans; font-weight: 400 600; font-size: 30px}
-.conteudo p{color: white; font-family:Open Sans; font-size:16px; font-weight:400;}
-
-
-.fa{font-size: 24px;color: white;}
-
-border-radius,.fa:hover {color: hsl(300, 69%, 71%);text-decoration: none; border-color:hsl(300, 69%, 71%) }
-
-.icones-caixa{display: flex;justify-content:center; width: 100%;margin: 0 auto; margin-bottom: 50px}
-
-.links{width: 50px;height: 50px;margin-right: 20px;border: 2px solid white;	border-radius: 100px;display: flex;align-items: center;justify-content: center;}
-
-.caixa-btn{margin-bottom: 80px; margin-top: 40px; }
-
-.botao{display: flex; justify-content: center;}
-
-.radius{border: none; border-radius: 100px;width: 350px; height: 70px; font-size: 22px; font-family: Open Sans;font-weight: 400;color: hsl(257, 40%, 49%);display: flex;align-items: center;justify-content: center;}
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-}
-
-/* F I M - M O B I L E Smartphones (767.8px para baixo)  */
-
-
-
-/*Dispostivos Médios (Tablets deitados, 767.9px para cima) */
-@media only screen and (min-width: 767.9px) {
-.fundo{background-image: url("bg-desktop.svg"); background-repeat: no-repeat; background-size: cover;}
-
-.container{margin: 0 auto; padding: 20px}
-
-.alinhamento{ display: flex; justify-content:left;}
-
-.alinhamento-conteudo{ display:flex; justify-content:center }
-
-.caixa{width: 100%; margin-bottom: 40px; display: flex; align-items: center;}
-
-.logo{width: 250px; display: flex;  justify-content: left; margin-bottom: 70px}
-
-.conteudo{padding: 34px;}
-
-.conteudo h1{color: white; margin-bottom: 20px; font-family: Open Sans; font-weight: 400 600; font-size: 39px; text-align:center}
-.conteudo p{color: white; margin-bottom: 20px; font-family:Poppins; font-size:20px; font-weight:400; text-align:center; }
-
-
-.fa{font-size: 22px;color: white;}
-
-border-radius,.fa:hover {color: hsl(300, 69%, 71%);text-decoration: none; border-color:hsl(300, 69%, 71%) }
-
-.icones-caixa{display: flex; justify-content:right;}
-
-.caixa-i{display: flex; justify-content:right; width: 100%;}
-
-.caixa-centralizar{display: flex; align-items: center; justify-content:center; width: 100%;}
-
-.links{ width: 40px; height: 40px;border: 2px solid none;display: flex; border-radius: 50%;}
-
-
-.alinha{ display:flex;align-items: center; justify-content: center}
-
-
-.botao{display: flex; justify-content: left; align-items: center;}
-.radius{border: none; border-radius: 100px;width: 150px; height: 35px; font-size: 16px; font-family: Open Sans;font-weight: 400;color: hsl(257, 40%, 49%); display:flex;align-items: center; justify-content:center;}
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-}
-
-
-/* F I M - M O B I L E Dispostivos Médios (Tablets deitados, 768.9px para cima) */
-
-
-
-
 

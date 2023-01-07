@@ -19,8 +19,8 @@ The designs were created to the following widths:
 ### Neutral
 
 - Very Dark Blue: hsl(234, 12%, 34%)
-- Grayish Blue: hsl(229, 6%, 66%)
-- Very Light Gray: hsl(0, 0%, 98%)
+- Grayish Blue: hsl(229, 6%, 66%) paragrafo e h3
+- Very Light Gray: hsl(0, 0%, 98%) background
 
 ## Typography
 
